@@ -10,7 +10,7 @@ GET http://localhost:3000/produtos
 ### RF02 - Buscar produto por ID
 ### =====================================
 
-GET http://localhost:3000/produtos/1
+GET http://localhost:3000/produtos/11
 
 ###
 
@@ -32,7 +32,7 @@ Content-Type: application/json
 ### RF04 - Atualizar produto
 ### =====================================
 
-PUT http://localhost:3000/produtos/1
+PUT http://localhost:3000/produtos/11
 Content-Type: application/json
 
 {
@@ -46,4 +46,4 @@ Content-Type: application/json
 ### RF05 - Excluir produto
 ### =====================================
 
-DELETE http://localhost:3000/produtos/1
+DELETE http://localhost:3000/produtos/11
